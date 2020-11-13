@@ -1,0 +1,27 @@
+1. Paigaldamine
+
+Linux : apt-get install git
+
+2. Seadistamine (töötava kasutaja ala)
+
+$ git config --global user.name "John Doe"
+$ git config --global user.email johndoe@example.com
+
+3. Initaiallseermine (ainult 1 kord alguses töökaustas)
+
+git init
+
+4.kasutamine
+
+git status
+git add faili nimi
+git commit -m "muudatuse kirjeldus"
+
+ muudatuste uurimine
+git log git show commiti_hash
+
+5. remote kasutamine
+a) gutgyv repo ühenduseks  lisamiseks 
+git remote add origin https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup
+
+
